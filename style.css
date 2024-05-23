@@ -1,0 +1,44 @@
+body{
+    font-family: "inter",Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #4D869C;
+}
+h1{
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+    background-color: #CDE8E5;
+    width: 60%;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+textarea{
+    font-family: "inter",Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 80%;
+    border: 0px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+button{
+    font-family: "inter",Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    background-color: #7AB2B2;
+    border: 0px solid;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #CDE8E5;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+}

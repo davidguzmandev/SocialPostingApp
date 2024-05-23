@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>Social Post App</title>
+</head>
+<body>
+    <h1>Social Posting App</h1>
+
+    <div class="container">
+        <form id="postForm" onsubmit="postData()">
+            <textarea type="text" id="post"  placeholder="What are you thinking?" required rows="4"></textarea>
+            <br>
+            <button type="submit">Post</button>
+        </form>
+    </div> 
+
+    <ul id="postList"></ul>
+
+    <script src="index.js"></script>
+    <footer>Developed by <strong>David Guzman</strong>
+    <br>Coding with HTML, CSS and JavaScript</footer>
+</body>
+</html>
