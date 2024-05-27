@@ -71,8 +71,7 @@ function editPost(id) {
 
 function updatePost(id) {
     const editBody = document.getElementById(`editBody${id}`).value;
-    console.log(posts[id]);
-    
+
     fetch(`${urlPost}/${id}`, {
         method: 'PUT',
         body: JSON.stringify({
