@@ -14,7 +14,7 @@
 
     <div class="container">
         <button onclick="getPost()">View Post</button>
-        <form id="postForm" onsubmit="postData()">
+        <form id="postForm" onsubmit="event.preventDefault(), postData()">
             <textarea type="text" id="post"  placeholder="What are you thinking?" required rows="4"></textarea>
             <br>
             <button type="submit">Post</button>
