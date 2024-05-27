@@ -26,6 +26,7 @@ function renderPost() {
 
         <div id="editForm${post.id}" class="editForm" style="display:none">
             <textarea id="editBody${post.id}" required>${post.body}</textarea>
+            <br>
             <button onclick="updatePost(${post.id})">Update</button>
         </div>
         `;
@@ -34,6 +35,6 @@ function renderPost() {
 }
 
 function editPost(id) {
-    const form = document.getElementById('editForm');
-    form.style.display = 'flex';
+    const form = document.getElementById(`editForm${id}`);
+    form.style.display = 'block';
 }
